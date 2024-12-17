@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="greeting-demo">
+        <h1 id="morning" class="apple">Good morning</h1>
+        <h1 id="afternoon" class="banana">Good afternoon</h1>
+        <h1 id="night" class="apple banana">Good evening</h1>
+        <button id="select-morning">Select #morning and change</button>
+        <button id="select-header">Select all h1 and change</button>
+        <button id="select-class">Select by class and change one</button>
+    </div>
+    <h2 id="enter">Mouse enter demo</h2>
+    <h2 id="leave">Mouse leave demo</h2>
+    <p id="font-demo">
+        [CLICK ON THIS PARAGRAPH] Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sit doloribus eius, architecto inventore
+        nulla quas reprehenderit voluptas corporis debitis repudiandae totam, ea aliquam. Sunt at laboriosam accusamus
+        quaerat sequi.
+    </p>
+    <!-- input text -->
+    <h2>Textbox and Text area demo</h2>
+    <input type="text" name="username" id="username" />
+    <button id="submit-btn">Submit</button>
+    <p>
+        Output: <span id="text-output"></span>
+    </p>
+    <br>
+    <!-- text area -->
+    <textarea name="user-comments" id="user-comments"></textarea>
+    <button id="submit-btn-2">Submit</button>
+    <p>
+        Output: <span id="text-area-output"></span>
+    </p>
+    <!-- radio input -->
+    <h2>Radio Input Demo</h2>
+    <div>
+        <label for="fruits">Fruits:</label>
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruits" id="apple" class="fruits" value="apple" checked />
+        <label for="banana">Banana</label>
+        <input type="radio" name="fruits" id="banana" class="fruits" value="banana" />
+        <label for="cherry">Cherry</label>
+        <input type="radio" name="fruits" id="cherry" class="fruits" value="cherry" />
+    </div>
+    <p>
+        Currently Checked: <span id="radio-output"></span>
+    </p>
+    <button id="radio-output-btn">Check Radio Buttons</button>
+
+    <!-- hands on 1 -->
+    <h2>Hands On 1</h2>
+    <div>
+        <input type="text" name="left" id="left">
+        <button id="swap">&larr; Swap &rarr;</button>
+        <input type="text" name="right" id="right">
+    </div>
+
+    <!-- checkboxes -->
+    <h2>Checkboxes Demo</h2>
+    <div>
+        <label for="checkboxes">Checkboxes</label>
+        <label for="alpha">Alpha</label>
+        <input type="checkbox" name="team" id="alpha" value="alpha">
+        <label for="bravo">Bravo</label>
+        <input type="checkbox" name="team" id="bravo" value="bravo">
+        <label for="charlie">Charlie</label>
+        <input type="checkbox" name="team" id="charlie" value="charlie">
+    </div>
+    <p>
+        Currently Checked: <span id="checkbox-output"></span>
+    </p>
+    <button id="checkbox-output-btn">Check Checkboxes</button>
+
+    <!-- Adding to Dom -->
+    <h2 id="header-demo">This is a demo</h2>
+    <button id="header-demo-btn">Click</button>
+    <h2>More demo:</h2>
+    <button id="first-demo">First Demo</button>
+    <button id="second-demo">Second Demo</button>
+    <button id="third-demo">Third Demo</button>
+    <div id="add-to-dom">
+        
+    </div>
+    
+
+    <!-- list append -->
+    <ul id="list-demo">
+        <li>Demo 1</li>
+    </ul>
+    <button id="list-demo-btn">Click</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
